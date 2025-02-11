@@ -1,3 +1,6 @@
+It looks like your usage section has a few issues in the commands. Specifically, the `terraform apply` command is missing, and there's a redundant `terraform plan` after the `apply` step. Here's the corrected version:
+
+```markdown
 # Terraform VPC and Security Groups for EKS Cluster
 
 This Terraform configuration sets up a VPC, subnets, route tables, and security groups for an EKS cluster.
@@ -13,10 +16,15 @@ This Terraform configuration sets up a VPC, subnets, route tables, and security 
 1. Initialize Terraform:
    ```bash
    terraform init
-2.  Terraform plan :
+   ```
+
+2. Create an execution plan:
    ```bash
    terraform plan
+   ```
 
- 3.  apply ... :
+3. Apply the plan to create resources:
    ```bash
-   terraform plan  
+   terraform apply
+   ```
+```
