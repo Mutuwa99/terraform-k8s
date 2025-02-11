@@ -13,3 +13,10 @@ This Terraform configuration sets up a VPC, subnets, route tables, and security 
 1. Initialize Terraform:
    ```bash
    terraform init
+2.  Terraform plan :
+   ```bash
+   terraform plan
+
+ 3.  apply ... :
+   ```bash
+   terraform plan  
